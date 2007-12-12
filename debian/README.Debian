@@ -1,0 +1,10 @@
+ygl for Debian
+--------------
+
+The example programs are included with the -dev package and can be compiled by
+
+cd /usr/share/doc/libygl4-dev/examples
+xmkmf
+make
+
+ -- Ramakrishnan Muthukrishnan <rkrishnan@debian.org>, Thu, 20 Dec 2007 07:06:32 +0530

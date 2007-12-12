@@ -1,0 +1,4 @@
+usr/include/X11/*
+usr/lib/lib*.a
+usr/lib/lib*.so
+usr/share/doc/libygl4-dev/examples/*

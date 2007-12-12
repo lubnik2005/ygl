@@ -1,0 +1,6 @@
+ygl (4.2e-1) unstable; urgency=low
+
+  * Initial release (Closes: #457208)
+
+ -- Ramakrishnan Muthukrishnan <rkrishnan@debian.org>  Wed, 12 Dec 2007 22:16:33 +0530
+

@@ -1,0 +1,36 @@
+Source: ygl
+Priority: extra
+Maintainer: Prabhu Ramachandran <prabhu@aero.iitb.ac.in> 
+Uploaders: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
+Build-Depends: debhelper (>= 5), xutils-dev, libgl1-mesa-dev, libxext-dev
+Standards-Version: 3.7.2
+Section: libs
+
+Package: libygl4-dev
+Section: libdevel
+Architecture: any
+Depends: libygl4 (= ${binary:Version})
+Description: A library that emulates SGI's GL routines under X11
+ Ygl is an X11 library that emulates the 2D routines of SGI's GL (sometimes 
+ called IRIS GL). Please note that GL is different from OpenGL.  Ygl is very 
+ simple to use, and very fast. The 2D routines are built around the standard 
+ X11 libraries and reported to be faster than GL itself.  This release will 
+ also work with FORTRAN code and has been built with 3D support.  The library 
+ therefore requires the use of the OpenGL libraries.
+ . 
+ This package provides the development files.
+
+Package: libygl4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A library that emulates SGI's GL routines under X11
+ Ygl is an X11 library that emulates the 2D routines of SGI's GL (sometimes 
+ called IRIS GL). Please note that GL is different from OpenGL.  Ygl is very 
+ simple to use, and very fast. The 2D routines are built around the standard 
+ X11 libraries and reported to be faster than GL itself.  This release will 
+ also work with FORTRAN code and has been built with 3D support.  The library 
+ therefore requires the use of the OpenGL libraries.
+ . 
+ This package provides the runtime library.
+
