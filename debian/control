@@ -2,7 +2,7 @@ Source: ygl
 Priority: extra
 Maintainer: Prabhu Ramachandran <prabhu@aero.iitb.ac.in> 
 Uploaders: Ramakrishnan Muthukrishnan <rkrishnan@debian.org>
-Build-Depends: debhelper (>= 5), xutils-dev, libgl1-mesa-dev, libxext-dev
+Build-Depends: debhelper (>= 5), xutils-dev, libgl1-mesa-dev, libxext-dev, libglu1-mesa-dev
 Standards-Version: 3.7.2
 Section: libs
 
