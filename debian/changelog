@@ -1,3 +1,11 @@
+ygl (4.2e-4) unstable; urgency=low
+
+  * fixed a typo (Ygl instead of ygl) in the debian/watch file.
+  * changed the description a bit.
+  * changes debian/control to reflect the new Standards-Version.
+
+ -- Ramakrishnan Muthukrishnan <rkrishnan@debian.org>  Sun, 28 Jun 2009 09:57:08 +0530
+
 ygl (4.2e-3) unstable; urgency=low
 
   * debian/control: added xbitmaps as build-dependency.
