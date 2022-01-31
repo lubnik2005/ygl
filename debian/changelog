@@ -1,3 +1,17 @@
+ygl (4.2e-5) unstable; urgency=medium
+
+  * QA upload.
+    + No maintainer upload noticed since inital release
+    + The only uploader of this package has retired, hence orphan
+      this package
+  * Switch to debhelper version 8 (Closes: #965912)
+  * Modernize d/rules, remove archaic stuff (Closes: #999094, #997432)
+  * Use libygl4-dev.examples to install examples
+  * d/README.Debian: Do not attempt to build examples needing
+    escalated permissions
+
+ -- Nilesh Patra <nilesh@debian.org>  Mon, 31 Jan 2022 19:32:12 +0530
+
 ygl (4.2e-4) unstable; urgency=low
 
   * fixed a typo (Ygl instead of ygl) in the debian/watch file.
