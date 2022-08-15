@@ -30,7 +30,6 @@ Description: Graphics library that emulates SGI's GL routines under X11 (headers
 
 Package: libygl4
 Architecture: any
-Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Description: Graphics library that emulates SGI's GL routines under X11 (lib)
