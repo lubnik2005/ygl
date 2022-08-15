@@ -4,6 +4,7 @@ Maintainer: Debian QA Group <packages@qa.debian.org>
 Build-Depends: debhelper-compat (= 13), xutils-dev, libgl1-mesa-dev, libxext-dev, libglu1-mesa-dev, xbitmaps
 Standards-Version: 4.6.1
 Section: libs
+Rules-Requires-Root: no
 
 Package: libygl4-dev
 Section: libdevel
