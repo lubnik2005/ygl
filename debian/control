@@ -1,7 +1,7 @@
 Source: ygl
 Priority: extra
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Build-Depends: debhelper (>= 8), xutils-dev, libgl1-mesa-dev, libxext-dev, libglu1-mesa-dev, xbitmaps
+Build-Depends: debhelper-compat (= 13), xutils-dev, libgl1-mesa-dev, libxext-dev, libglu1-mesa-dev, xbitmaps
 Standards-Version: 3.8.2
 Section: libs
 
