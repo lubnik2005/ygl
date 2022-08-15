@@ -9,6 +9,8 @@ Build-Depends: debhelper-compat (= 13),
                libglu1-mesa-dev,
                xbitmaps
 Standards-Version: 4.6.1
+Vcs-Browser: https://salsa.debian.org/debian/ygl
+Vcs-Git: https://salsa.debian.org/debian/ygl.git
 Rules-Requires-Root: no
 
 Package: libygl4-dev
