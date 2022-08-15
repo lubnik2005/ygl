@@ -1,22 +1,16 @@
-This package was debianized by Prabhu Ramachandran <prabhu@aero.iitb.ac.in>
-and Ramakrishnan Muthukrishnan <rkrishnan@debian.org> on
-Wed, 12 Dec 2007 22:16:33 +0530.
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Ygl
 
-It was downloaded from <http://www.thp.uni-duisburg.de/Ygl/>
+Files: *
+Copyright: Fred Hucht
+License: LGPL-2
 
-Upstream Author: 
+Files: debian/*
+Copyright: 2007, Prabhu Ramachandran <prabhu@aero.iitb.ac.in>
+           2007, Ramakrishnan Muthukrishnan <rkrishnan@rkrishnan.org>
+           2022, Nilesh Patra <nilesh@debian.org>
+License: LGPL-2
 
-    Fred Hucht <fred@thp.Uni-Duisburg.de>
-
-Copyright: 
-
-    Copyright (C) 1993-2007 by Fred Hucht <fred@thp.Uni-Duisburg.de>
-
-License:
-
-    GNU LGPL version 2
-
-The Debian packaging is (C) 2007, Prabhu Ramachandran <prabhu@aero.iitb.ac.in>
-and Ramakrishnan Muthukrishnan <rkrishnan@debian.org> and is licensed under the GPL, 
-see `/usr/share/common-licenses/LGPL-2'.
-
+License: LGPL-2
+ On Debian systems the full text of the LGPL-2 can be found in
+ /usr/share/common-licenses/LGPL-2
