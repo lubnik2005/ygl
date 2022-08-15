@@ -15,7 +15,7 @@ XCOMM  (might be slower than X11, but also 3d)
 XCOMM  Set Has_GLX_SGI_video_sync to 0 if you get link errors like
 XCOMM  "ld: 0711-317 ERROR: Undefined symbol: .glXGetVideoSyncSGI"
 XCOMM  (e.g. under AIX 4.3)
-#define Has_GLX_SGI_video_sync 0
+#define Has_GLX_SGI_video_sync 1
 
 XCOMM  Set DoubleBuffer to 1 if your system has the include file
 XCOMM  <X11/extensions/Xdbe.h> and the library libXext.a
