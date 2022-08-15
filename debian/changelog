@@ -1,3 +1,34 @@
+ygl (4.2e-6) unstable; urgency=medium
+
+  * QA upload.
+  * Add diff as patch in d/patches
+    + Avoid patching in heaps, the Makefile
+      rather generate them from xmkmf
+  * Modernize copyr
+  * debian/source/format: 3.0 (quilt) (Closes: #1007483)
+  * d/control:
+    + Drop compat file, rely on debhelper-compat
+      and bump compat level to 13
+    + Bump Standards-Version to 4.6.1 (no changes needed)
+    + Add "Rules-Requires-Root: no"
+    + Format with cme
+    + Add ${misc:Depends} for libdevel pkg
+    + Update desc to not start with article
+    + Remove trailing whitespaces fron d/control and d/ch
+    + Move package to salsa, add VCS URLs
+    + Un-duplicate short desc
+    + Remove section libs for libygl4 - take benefit of
+      inheritance rules
+  * Remove useless d/dirs
+  * d/rules: Add ffile-prefix-map compiler flag in PROJECT_DEFINES
+    to avoid embedding the build path (Closes: #1014560)
+  * Add d/salsa-ci.yml
+    + Disable blhc check in d/salsa-ci.yml
+  * Add autopkgtests
+  * Add fake watch file
+
+ -- Nilesh Patra <nilesh@debian.org>  Mon, 15 Aug 2022 12:01:49 +0530
+
 ygl (4.2e-5) unstable; urgency=medium
 
   * QA upload.
@@ -38,4 +69,3 @@ ygl (4.2e-1) unstable; urgency=low
   * Initial release (Closes: #457208)
 
  -- Ramakrishnan Muthukrishnan <rkrishnan@debian.org>  Wed, 12 Dec 2007 22:16:33 +0530
-
