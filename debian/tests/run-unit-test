@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+pkg=ygl
+
+if [ "${AUTOPKGTEST_TMP}" = "" ] ; then
+  AUTOPKGTEST_TMP=$(mktemp -d /tmp/${pkg}-test.XXXXXX)
+  trap "rm -rf ${AUTOPKGTEST_TMP}" 0 INT QUIT ABRT PIPE TERM
+fi
+
+cd "${AUTOPKGTEST_TMP}"
+cp -a /usr/share/doc/libygl4-dev/examples . && cd examples
+xmkmf
+make
