@@ -18,7 +18,7 @@ Architecture: any
 Section: libdevel
 Depends: libygl4 (= ${binary:Version}),
          ${misc:Depends}
-Description: Graphics library that emulates SGI's GL routines under X11
+Description: Graphics library that emulates SGI's GL routines under X11 (headers)
  Ygl is an graphics library that emulates the routines of SGI's GL (sometimes
  called IRIS GL). Please note that GL is different from OpenGL.  Ygl is very
  simple to use, and very fast. The 2D routines are built around the standard
@@ -33,7 +33,7 @@ Architecture: any
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends}
-Description: Graphics library that emulates SGI's GL routines under X11
+Description: Graphics library that emulates SGI's GL routines under X11 (lib)
  Ygl is an graphics library that emulates the routines of SGI's GL (sometimes
  called IRIS GL). Please note that GL is different from OpenGL.  Ygl is very
  simple to use, and very fast. The 2D routines are built around the standard
