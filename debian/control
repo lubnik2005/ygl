@@ -14,7 +14,8 @@ Rules-Requires-Root: no
 Package: libygl4-dev
 Architecture: any
 Section: libdevel
-Depends: libygl4 (= ${binary:Version})
+Depends: libygl4 (= ${binary:Version}),
+         ${misc:Depends}
 Description: A library that emulates SGI's GL routines under X11
  Ygl is an graphics library that emulates the routines of SGI's GL (sometimes 
  called IRIS GL). Please note that GL is different from OpenGL.  Ygl is very 
