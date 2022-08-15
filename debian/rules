@@ -13,3 +13,6 @@ override_dh_auto_configure:
 override_dh_installexamples:
 	cd examples && $(MAKE) clean && rm -f Makefile
 	dh_installexamples
+
+override_dh_auto_build:
+	dh_auto_build -- PROJECT_DEFINES="-ffile-prefix-map=$(CURDIR)=."
