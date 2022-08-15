@@ -1,7 +1,7 @@
 ygl (4.2e-5) unstable; urgency=medium
 
   * QA upload.
-    + No maintainer upload noticed since inital release
+    + No maintainer upload noticed since initial release
     + The only uploader of this package has retired, hence orphan
       this package
   * Switch to debhelper version 8 (Closes: #965912)
