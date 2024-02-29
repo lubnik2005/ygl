@@ -2,7 +2,7 @@ Source: ygl
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Section: libs
 Priority: optional
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: dpkg-dev (>= 1.22.5), debhelper-compat (= 13),
                xutils-dev,
                libgl1-mesa-dev,
                libxext-dev,
@@ -16,7 +16,7 @@ Rules-Requires-Root: no
 Package: libygl4-dev
 Architecture: any
 Section: libdevel
-Depends: libygl4 (= ${binary:Version}),
+Depends: libygl4t64 (= ${binary:Version}),
          ${misc:Depends}
 Description: Graphics library that emulates SGI's GL routines under X11 (headers)
  Ygl is an graphics library that emulates the routines of SGI's GL (sometimes
@@ -28,7 +28,10 @@ Description: Graphics library that emulates SGI's GL routines under X11 (headers
  .
  This package provides the development files.
 
-Package: libygl4
+Package: libygl4t64
+Provides: ${t64:Provides}
+Replaces: libygl4
+Breaks: libygl4 (<< ${source:Version})
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
