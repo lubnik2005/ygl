@@ -1,0 +1,12 @@
+makeYglTypes
+!X11/Ygl.h
+!X11/Yfgl.h
+X11/*
+GL
+GL/*
+KHR
+KHR/*
+*.o
+*.a
+usleep.h
+usleep.i
