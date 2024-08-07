@@ -606,7 +606,7 @@ static int ginit_badWindowHandler(Display *dpy, XErrorEvent *error) {
 static void get_environment(const char *caller) {  /* Parse environment */
   char *env;
   int v, i;
-  int useogl = False;
+  int useogl = True;
   const char *names[NUMVARS][2] = { /* valid names of environment vars */
     { "YGL_FLUSHTIME", 	     "YGL_FT"  },
     { "YGL_PRIVATECOLORMAP", "YGL_PCM" },

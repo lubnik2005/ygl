@@ -6,7 +6,7 @@
 #    $Id: Makefile.std,v 3.4 1996-07-18 18:38:53+02 fred Exp fred $
 
 # Uncomment next line to use X11 bindings (faster, but only 2d)
-X11		= -DX11
+# X11		= -DX11
 
 # Uncomment next line to use OpenGL bindings (slower than X11, but also 3d)
 OGL		= -DOGL
@@ -22,13 +22,13 @@ DOUBLEBUF 	= -DDOUBLEBUF
 MULTIBUF 	= -DMULTIBUF
 
 # Uncomment next two lines to prepend "ygl_" to all function names 
-#YGL_PREFIX	= -DYGL_PREFIX
-#PH		= X11/Yglprefix.h
-#TARGET		= libYglp.a
+# YGL_PREFIX	= -DYGL_PREFIX
+# PH		= X11/Yglprefix.h
+# TARGET		= libYglp.a
 
 CDEBUGFLAGS	= -O
 
-OBJS		= ygl.o draw.o misc.o font.o queue.o color.o menu.o gl2ppm.o $(FBO)
+OBJS		= ygl.o draw.o misc.o font.o queue.o color.o menu.o gl2ppm.o 3d.o $(FBO)
 TARGET          = libYgl.a
 
 COPTS = $(X11) $(OGL) $(DOUBLEBUF) $(MULTIBUF)
